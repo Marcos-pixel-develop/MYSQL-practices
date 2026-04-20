@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: #1e1e1e;
+    padding: 15px 30px;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+/* LINKS */
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.nav a:hover {
+    color: #357abd;
+}
+/* Header */
+
+/* Caja de materias */
+
+
+
+
+.materias-box {
+    width: 80%;
+    height: 220px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+
+    position: relative; /* 🔥 CLAVE */
+}
+
+/* h2 arriba izquierda del div */
+.materias-box h2 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    margin: 0;
+}
+.materias-head{
+    height: 20%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+.materia {
+    display: flex;
+    align-items: center;
+   
+    background-color: #333;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 6px;
+    color: white;
+}
+
+/* COLUMNAS */
+.nombre {
+    height: 100%;
+    width: 30%;
+    margin-left:10% ;
+}
+
+
+.profesor {
+  
+    margin-left:10%;
+}
+.materia-form{
+    margin-left: 30%;
+}
+.materia-button{
+    border: none;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor centrado */
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Botón moderno */
+.btn-pro {
+    background: linear-gradient(135deg, #6C63FF, #5A54E8);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Hover (cuando pasas el mouse) */
+.btn-pro:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Click */
+.btn-pro:active {
+    transform: scale(0.95);
+}

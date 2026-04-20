@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Caja de materias */
+
+
+/* Efecto hover */
+.materias-box:hover {
+    transform: scale(1.05);
+}
+
+.materias-box {
+    width: 80%;
+    height: 220px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+
+    position: relative; /* 🔥 CLAVE */
+}
+
+/* h2 arriba izquierda del div */
+.materias-box h2 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    margin: 0;
+}
+.materias-head{
+    height: 20%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+.materia {
+    display: flex;
+    align-items: center;
+   
+    background-color: #333;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 6px;
+    color: white;
+}
+
+/* COLUMNAS */
+.nombre {
+    height: 100%;
+    width: 30%;
+    margin-left:10% ;
+}
+
+
+.profesor {
+  
+    margin-left:10%;
+}
+.materia-form{
+    margin-left: 30%;
+}
+.materia-button{
+    border: none;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor centrado */
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Botón moderno */
+.btn-pro {
+    background: linear-gradient(135deg, #6C63FF, #5A54E8);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Hover (cuando pasas el mouse) */
+.btn-pro:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Click */
+.btn-pro:active {
+    transform: scale(0.95);
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Contenedor */
+.materias-container {
+    margin-left: 8%;
+    width: 80%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Encabezado */
+.materias-header {
+    background: #4a90e2;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Fila tipo tabla */
+.materia-row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr 1fr;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    justify-items: center; /* 🔥 centra TODO horizontalmente */
+    text-align: center;     /* 🔥 alinea texto igual */
+}
+
+.materia-row:hover {
+    background: #f1f7ff;
+}
+.materia-row .cupos{
+    border-style: solid;
+    background-color: #cdcdcd;
+    border-width: 1px;
+    border-color: #333;
+    color: black;
+}
+
+
+/* Encabezados */
+.materia-row.header {
+    font-weight: bold;
+    background: #f0f0f0;
+}
+
+/* Botón */
+.btn-select {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-select:hover {
+    background: #357abd;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.button_confirm{
+   position: absolute;
+   margin-left: 45%;
+   margin-top:-0.5%;
+    background-color: #357abd;
+}
+
+/*BOTON*/
+.button_confirm {
+  background: #357abd;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 1.2em;
+  cursor: pointer;
+}
+.button_confirm {
+  transition: all 0.3s ease;
+}
+.button_confirm:active {
+  transform: scale(0.95);
+}
+.button_confirm:hover {
+  background: #2f6bb0;
+  box-shadow: 0 0 15px rgba(53, 122, 189, 0.7);
+}
